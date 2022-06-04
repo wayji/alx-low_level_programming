@@ -11,7 +11,11 @@ for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
-putchar('\n');
-return (0);
+char b;
+for (b = 'A'; i <= 'A'; i++)
+{
+putchar(b);
+putchar('\n')
 }
-
+return (0);
+}`
