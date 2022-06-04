@@ -15,7 +15,7 @@ char b;
 for (b = 'A'; i <= 'A'; i++)
 {
 putchar(b);
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
