@@ -12,7 +12,7 @@ for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
-for (b = 'A'; i <= 'Z'; b++)
+while (b = 'A'; i <= 'Z'; b++)
 {
 putchar(b);
 putchar('\n');
