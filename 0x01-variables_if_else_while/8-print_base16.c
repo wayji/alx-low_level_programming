@@ -12,9 +12,10 @@ for (i = 48; i < 58; i++)
 {
 putchar(i);
 }
-for (g ='a'; g <='f' ; g++ )
+for (g = 'a'; g <= 'f' ; g++)
 {
 putchar(g);
 }
+putchar('\n');
 return (0);
 }
