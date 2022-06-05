@@ -6,12 +6,14 @@
 */
 int main(void)
 {
-char i;
-char b;
-b = 'A'
-for (i = 'a'; i <= 'z'; i++)
+int i;
+int b;
+i ='a':
+b = 'A';
+while (i <= 'z';)
 {
 putchar(i);
+i++;
 }
 while (b <= 'Z')
 {
