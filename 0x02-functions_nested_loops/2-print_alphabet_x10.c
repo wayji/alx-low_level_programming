@@ -4,7 +4,6 @@
 *
 * Return: Always 0.
 */
-
 void print_alphabet_x10(void)
 {
 int r;
@@ -13,12 +12,12 @@ r = 0;
 letter = 'a';
 while (r <= 9)
 {
-while (letter <= 'z') 
+while (letter <= 'z')
 {
 _putchar(letter);
 letter++;
-}
 r++;
+}
 _putchar('\n');
 }
 }
