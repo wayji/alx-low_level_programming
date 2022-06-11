@@ -10,9 +10,9 @@ char let;
 let = 'a';
 while (let <= 'z');
 {
-_putchar(let);
+putchar(let);
 let++;
 }
-_putchar('\n');
-return (0);
+putchar('\n');
+return;
 }
