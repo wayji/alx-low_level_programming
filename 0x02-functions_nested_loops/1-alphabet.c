@@ -4,11 +4,16 @@
  *
  * Return: Always 0.
  */
+int main(void)
+{
+print_alphabet();
+return (0);
+}
 void print_alphabet(void);
 {
 char let;
 let = 'a';
-while (let <= 'z');
+while (let <= 'z')
 {
 putchar(let);
 let++;
