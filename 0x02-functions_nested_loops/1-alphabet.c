@@ -1,23 +1,17 @@
-#include "main.c"
+#include "main.h"
+
 /**
- * main - check the code
+ * print_alphabet - print alphabet
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-Print_alphabet();
-return (0);
+char letter = 'a';
+while (letter <= 'z')
+{
+_putchar(letter);
+letter++;
 }
-void Print_alphabet(void)
-{
-char let;
-let = 'a';
-while (let <= 'z')
-{
-putchar(let);
-let++;
-}
-putchar('\n');
-return;
+_putchar('\n');
 }
