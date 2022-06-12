@@ -4,14 +4,20 @@
  *
  * Return: Always 0.
  */
-int main(void)
 int _isupper(int c)
 {
-if (c == 'A')
+char letter;
+letter = 'A';
+for (letter <= 'Z')
+{ 
+letter++;
+}
+if (c == letter)
 {
-return (1);
+c = 1;
 }
 else
 {
-return (0);
+c = 0;
+}
 }
