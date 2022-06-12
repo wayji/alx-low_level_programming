@@ -8,7 +8,7 @@ int _isupper(int c)
 {
 char letter;
 letter = 'A';
-for (letter <= 'Z')
+while (letter <= 'Z')
 { 
 letter++;
 }
@@ -20,4 +20,5 @@ else
 {
 c = 0;
 }
+return (c);
 }
