@@ -7,6 +7,5 @@
 void reset_to_98(int *n)
 {
 int yg = 98;
-int *n;
-*n = &yg;
+yg = &n;
 }
